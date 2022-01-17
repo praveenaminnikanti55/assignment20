@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="D:\responsive project\style6.css"/>
+    <link rel="stylesheet" href="style5.css"/>
+    <link rel="stylesheet" href="style.css"/>
+   
+   
+    </head>
+<style>
+
+*{
+    margin: 0px;
+}
+.Banner-section{
+    background-image: linear-gradient(to left,#8FE5CD,#7099C3,#4839B7);
+  
+}
+.header-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.sign{
+    font-weight: bold;
+    padding: 10px 18px;
+    background-image: linear-gradient(to right,#BA49E2,#CF56AB,#FA6E3B);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    align-self: center;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.login{
+    font-weight: bold;
+    padding: 10px 18px;
+    font-size: 18px;
+    background-image: linear-gradient(to right,#B79039,#DC8A3F,#FF8545);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    align-self: center;
+}
+.menuicon{
+    height:60px;
+    cursor: pointer;
+}
+
+.Banner-container{
+    display: flex;
+    justify-content:center;
+    margin: 50px;
+}
+.Banner-heading{
+    color: white;
+    font-size: 70px;
+    max-width: 600px;
+}
+.Banner-heading::before{
+    content:"";
+    position:absolute;
+    background-image:url("Repeat Grid 1.png");
+    width:340px;
+    height:200px;
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:475px){
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    .Banner-section{
+       
+        background-image: linear-gradient(to left,#8FE5CD,#7099C3,#4839B7);
+        height: 50%;
+        width:400vw;
+       
+    }
+    .Banner-container{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        margin: 50px;
+    }
+    .Banner-heading{
+        color: white;
+        font-size: 60px;
+        
+    }
+    
+      
+
+
+}
+
+  
+    .cardflex{
+    display: flex;
+    justify-content: center;
+    margin: 38px;
+    margin-top: 29px;
+    margin-bottom: 40px;
+}
+.flex-item {
+    width: 309px;
+    border: 1px transparent;
+    border-radius: 2px;
+    margin-right: 29px;
+    padding: 34px;
+    margin-top: 150px;
+}
+/*.flex-item{
+    width: 220px;
+    border: 1px transparent  ;
+    border-radius: 2px;
+    margin-right: 15px;
+    padding: 20px;
+}*/
+.box1{
+    margin-right: 29px;
+    box-shadow: 0px 3px 10px rgb(0 0 0 /0.2);
+
+}
+.box2{
+    margin-left: 29px;
+    box-shadow: 0px 3px 10px rgb(0 0 0 /0.2);
+
+}
+.dotsheading{
+    font-size:30px ;
+    font-family: "Poppins";
+    font-weight:600 ;    
+    margin-bottom: 3px;
+}
+.dotspara{
+    font-size:20px ;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-top: 3px;
+
+}
+.section2cardsection{
+    padding: 25px;
+}
+.section2title{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    width: 382px;
+    height: 87px;
+    transform: translate(-50%,50%);
+    color: #FDA145;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 54px;
+}
+.section2title{
+    text-align: center;
+    color: #FDA145;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 57px;
+    width: 997px;
+    margin-top: 0;
+    /*margin-bottom: 54px;
+    width: 997px;
+    margin-left: 26px;
+    margin-right: 196px;
+    margin-top: 0;*/
+}
+
+.actionbutton1,.actionbutton2,.actionbutton3{
+    margin-top: 9px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: transparent;
+    padding: 9px;
+    width: 107px;
+    height: 44px;
+    color: #ffff;
+}
+
+.actionbutton1{
+    background-image: linear-gradient(to right,#4A90FF,#FA3BB1);
+
+}
+.actionbutton2{
+    background-image: linear-gradient(to right,#B79039,#FF8545);
+
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:475px){
+
+.section2cardsection{
+        width: 300vw;
+    }
+    h2.section2title{
+        font-size: 3.5em;
+        padding: 3px;
+        margin-bottom: 136px;
+        margin-left: 80px;
+
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        /*flex-wrap: wrap;
+        position: relative;*/
+    }
+    .cardflex{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .flex-item {
+        padding: 7px;
+        margin-left: 270px;
+        width: 64%;
+        height: 487px;
+    
+    }
+    .flex-item.box.box2 {
+        margin-left: 29%;
+    }
+    .dotspara {
+        margin-left: 45px;
+        font-size: 2.4em;
+    }
+    .dotsheading {
+        margin-left: 41px;
+        font-size: 3em;
+    }
+    .dotsimg {
+        width: 30%;
+        margin-left: 34px;
+        margin-top: 28px;
+    }
+    .actionbutton1,.actionbutton2{
+        margin-left: 41px;
+        width: 158px;
+        height: 66px;
+        font-size: 1.3rem;
+    }
+
+}
+
+
+
+
+    
+.IntegrationSection{
+        background-color: #6430B7;
+    }
+    .containersec3{
+        margin: auto;
+        max-width: 907px;
+        /* max-width: 800px; */
+        padding-top: 50px;
+    }
+    .sectionTitle3{
+        color: white;
+        font-family: "Poppins";
+        font-size: 50px;
+        width: 592px;
+        line-height: 60px;
+    }
+    .contentSection3{
+        color: white;
+        font-family: "PoppinReg";
+        font-size: 30px;
+        margin-top: 30px;
+    }   
+    
+    .actionLinkContainer{
+        display: flex;
+        position: relative;
+        margin-top: 23px;
+    }
+    
+    .actionBtnStl{
+        display: block;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 13px;
+        font-family: 'PoppinReg';
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        position: relative;
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    
+    .btnContent{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    
+    .action1{
+        border: 1px solid #FFC04A;
+        width: 235px;
+        height: 69px;
+    }
+    
+    .action2{
+        border: 1px solid #2AFAC2;
+        width: 284px;
+        height: 69px;
+    }
+    
+    .action3{
+        border: 1px solid #45E2FF;
+        width: 321px;
+        height: 69px;
+        /* margin-top: 30px; */
+    }
+    .linkBtnType{
+        margin-top: 26px;
+        margin-bottom: 73px;
+        padding: 10px;
+        width: 180px;
+        height: 49px;
+        border: none;
+        border-radius: 25px;
+        color: #311A8B;
+        background-image: linear-gradient(to right, #39B2B7,#45E2FF);
+        font-family: "Poppins";
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+
+    @media screen and (min-width:320px) and (max-width:475px){
+
+    .IntegrationSection{
+        background-color: #6430B7;
+        height: 50%;
+        width:400vw;
+    }
+    .containersec3{
+        margin: auto;
+        max-width: 500px;
+        /* max-width: 800px; */
+        padding-top: 50px;
+    }
+    .sectionTitle3{
+        color: white;
+        font-family: "Poppins";
+        font-size: 40px;
+        width: 592px;
+        line-height: 60px;
+    }
+    .contentSection3{
+        color: white;
+        font-family: "PoppinReg";
+        font-size: 20px;
+        margin-top: 30px;
+    }   
+    
+    .actionLinkContainer{
+        display: flex;
+        flex-direction:column;
+        position: relative;
+        margin-top: 23px;
+    }
+    
+    .actionBtnStl{
+        display: block;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 13px;
+        font-family: 'PoppinReg';
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        position: relative;
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    
+    .btnContent{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+    
+    .action1{
+        border: 1px solid #FFC04A;
+        width: 235px;
+        height: 69px;
+    }
+    
+    .action2{
+        border: 1px solid #2AFAC2;
+        width: 284px;
+        height: 69px;
+    }
+    
+    .action3{
+        border: 1px solid #45E2FF;
+        width: 321px;
+        height: 69px;
+        /* margin-top: 30px; */
+    }
+    .linkBtnType{
+        margin-top: 26px;
+        margin-bottom: 73px;
+        padding: 10px;
+        width: 180px;
+        height: 49px;
+        border: none;
+        border-radius: 25px;
+        color: #311A8B;
+        background-image: linear-gradient(to right, #39B2B7,#45E2FF);
+        font-family: "Poppins";
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
+    
+    
+    
+    .footer-content{
+    margin:auto;
+    width:90%;
+}
+.footerSection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.FooterLink{
+    width: 300px;
+}
+
+.ActionLink{
+    display: inline-block;
+    border: 1px solid #707070;
+    text-decoration: none;
+    position: relative;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 12px;
+    color: #504450;
+}
+
+.one {
+    width: 245px;
+    height: 28px;
+    
+}
+
+.two{
+    width: 120px;
+    height: 26px;
+    font-size: 0.6em;
+}
+.three{
+    width: 120px;
+    height: 26px;
+    font-size: 0.6em;
+
+}
+.four{
+    width: 232px;
+    height: 28px;
+}
+.five{
+    width: 226px;
+    height: 54px;
+    color: #504450;
+    background-color:#EFEDED;
+    border: none;
+    margin-top: 10px;
+}
+
+.link{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ListContent{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-top:-38px;
+}
+
+.linkList{
+    list-style-type: none;
+    font-family: "Poppins";
+    font-size: 2rem;
+}
+
+.linkList li{
+    font-family: "PoppinReg";
+    font-size: 1.4rem;
+}
+.partnerBtnCont{
+    margin-top: 19px;
+    
+
+}
+.partner{
+    width: 208px;
+    height: 66px;
+    color: #FA3B6E;
+    background-color: #ffffff;
+    border: 1px solid #FF4A4A;
+    border-radius: 30px;
+    font-family: "Poppins";
+    font-size: 1.2em;
+  
+}
+.icon{
+    text-align: center;
+    position: relative;
+}
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    font-size: 14px;
+    font-family: "Poppins";
+    text-align: center;
+    margin: 20px;
+}
+
+.copyright{
+    font-size: 14px;
+    color: black;
+    font-family: "Poppins";
+    text-align: center;
+    position: relative;
+    margin:20px;
+    margin-bottom: 60px;
+   
+}
+.copyright::before{
+    content: "";
+    width: 27%;
+    height:2px;
+    background: gray;
+    position: absolute;
+    margin-left: 30px;
+    left: 0;
+    top:50%;
+   
+}
+.copyright::after{
+    content: "";
+    width: 27%;
+    height:2px;
+    background: gray;
+    position: absolute;
+    margin-right: 30px;
+    right: 0;
+    top:50%;
+}
+.iconcontainer{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.icon-facebook{
+    font-size:50px;
+    color:blue;
+}
+.icon-twitter{
+    font-size:50px;
+    color:skyblue;
+}
+.icon-googleplus{
+    font-size:50px;
+    color:#FA6E3B;
+
+}
+.icon-linkedin{
+    font-size:50px;
+    color:aqua;
+}
+.icon-instagram{
+    font-size:50px;
+    color:brown;
+    
+} 
+
+@media screen and (min-width:320px) and (max-width:475px){
+    .footer-content{
+        margin:auto;
+        width:90%;
+    }
+    .footerSection{
+        display: flex;
+        flex-direction: column;
+        margin-top: 45px;
+        justify-content: center;
+
+    }
+
+    .FooterLink{
+        width: 300px;
+        text-align: center;
+        margin: auto;
+        position: relative;
+        left: 120%;
+    }
+
+    .ListContent{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        position: relative;
+        left: 123%;
+    }
+
+
+
+    .ActionLink{
+        display: inline-block;
+        border: 1px solid #707070;
+        text-decoration: none;
+        position: relative;
+        font-family: "PoppinReg";
+        font-size: 20px;
+        border-radius: 12px;
+        color: #504450;
+    }
+
+    .one{
+        width: 255px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .two{
+        width: 255px;
+        height: 41px;
+        margin-bottom: 10px;
+
+    }
+    .three{
+        width: 255px;
+        height: 41px;
+        margin-bottom: 10px;
+
+    }
+    .four{
+        width: 255px;
+        height: 41px;
+        margin-bottom: 10px;
+
+    }
+    .five{
+        width: 255px;
+        height: 41px;
+        color: #504450;
+        background-color:#EFEDED;
+        border: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .link{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+
+    .linkList{
+        list-style-type: none;
+        font-family: "Poppins";
+        font-size: 24px;
+        margin-left: 98px
+    }
+
+    .linkList li{
+        font-family: "PoppinReg";
+        font-size: 1.2rem;
+    }
+
+    .partnerBtnCont{
+        margin-top: 10px;
+        text-align: center;
+        position: relative;
+        left: 120%;
+    }
+    .partner{
+        width: 230px;
+        height: 65px;
+        color: #FA3B6E;
+        background-color: #ffffff;
+        border: 1px solid #FF4A4A;
+        border-radius: 30px;
+        font-family: "Poppins";
+        font-size: 1.4rem;
+    }
+
+    .copyright{
+        text-align: center;
+        position: relative;
+        left: 27%;
+    }
+    .cright {
+        position: absolute;
+        right: -193%;
+        font-size: 33px;
+        margin-left: 37%;
+        margin-bottom: 46px;
+    }
+    .copyright::before{
+        content: "";
+        width: 56%;
+        height:2px;
+        background: gray;
+        position: absolute;
+        margin-left: 10px;
+        left: 10%;
+        top: 0%;
+        transform: translate(-84px, 28px);
+    }
+    .icon{
+        text-align: center;
+        position: relative;
+        left: 100%;
+        text-align:center;
+            
+        display: flex;
+        justify-content: space-around;
+        width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+}
+    
+    .copyright::after{
+        content: "";
+        width: 56%;
+        height:2px;
+        background: gray;
+        position: absolute;
+        margin-left: 10px;
+        left: 10%;
+        top: 0%;
+        transform: translate(715px, 26px);
+    }
+    
+
+       
+    
+    .iconcontainer{
+        display: flex;
+        justify-content: center;
+        margin-left: 161%;
+        margin-top: 10%;
+    
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+    
+    
+
+
+
+  
+   
+
+</style>
+
+<body>
+<section class="Banner-section">
+    <nav class="header-container">
+        <a class="sign" href="#">SIGNUP</a>
+        <a class="login" href="#">LOGIN</a>
+        <img class="menuicon" src="menubar"/>
+    </nav>
+    <div class="Banner-container">
+        <h1 class="Banner-heading">Go Contactless With Demo</h1>
+        <img class="lappy-image" src="lappyimage" alt="Lappy">
+    </div>
+</section>
+
+<section class="section2cardsection">
+    <h2 class="section2title">Lorem Ipsum is simply dummy text of the printing and</h2>
+
+<section class="cardflex" >
+    <div class="flex-item box box1">
+        <img class="dotsimg" src="dotsimage" alt="dotsimage">
+        <h3 class="dotsheading">Lorem Psum</h3>
+        <p class="dotspara">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <button class="actionbutton1">ACTION LINK</button>
+    </div>
+    <div class="flex-item box box2">
+        <img class="dotsimg" src="dotsimage" alt="dotsimage">
+        <h3 class="dotsheading">Lorem Psum</h3>
+        <p class="dotspara">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <button class="actionbutton2">ACTION LINK</button>
+    </div>
+</section>
+</section>
+
+
+
+
+
+
+    <section class="IntegrationSection">
+    <div class="containersec3">
+        <h2 class="sectionTitle3">Integration & Development of Demo</h2>
+        <p class="contentSection3">look like readable English. Many desktop publishing packages and
+            web page editor slook like readable English. Many desktop publishing
+            packages and web page editors..
+        </p>
+        <div class="actionLinkContainer">
+            <a href="#0" class="actionBtnStl action1">
+                <span class="btnContent">Action link 1</span>
+            </a>
+            <a href="#0" class="actionBtnStl action2">
+                <span class="btnContent">Action link 2</span>
+            </a>
+            <a href="#0" class="actionBtnStl action3">
+                <span class="btnContent">Action link 3</span>
+            </a>
+        </div>
+        <button type="button" class="linkBtnType">ACTION LINK</button>
+    </div>
+</section>
+       
+            
+        
+    
+
+
+    </section>
+
+    
+    <footer>
+        <section class="footer-content">
+            <section class="footerSection">
+                <div class="FooterLink">
+                    <a href="#0" class="ActionLink one">
+                        <span class="link">ACTION LINK</span>
+                    </a>
+                    <a href="#0" class="ActionLink two">
+                        <span class="link">ACTION LINK</span>
+                    </a>
+                    <a href="#0" class="ActionLink three">
+                        <span class="link">ACTION LINK</span>
+                    </a>
+                    <a href="#0" class="ActionLink four">
+                        <span class="link">ACTION LINK</span>
+                    </a>
+                    <a href="#0" class="ActionLink five">
+                        <span class="link">MANY MORE</span>
+                    </a>
+                </div>
+                <div class="ListContent">
+                    <ul class="linkList">
+                        Link 1
+                        <li>Action link</li>
+                        <li>Action</li>
+                        <li>Action link</li>
+                        <li>Action</li>
+                    </ul>
+                    <ul class="linkList">
+                        Link 3
+                        <li>Action link</li>
+                        <li>Action</li>
+                        <li>Action link</li>
+                        <li>Action</li>
+                        <li>Action link</li>
+                        <li>Action</li>
+                    </ul>
+                    <ul class="linkList">
+                        Link 4
+                        <li>Action link</li>
+                        <li>Action</li>
+                        <li>Action link</li>
+                        <li>Action</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="partnerBtnCont">
+                <button type="button" class="partner">
+                    Partner with us
+                </button>
+            </div>
+            <div class="icon">
+                <span class="icon-facebook"></span></a>
+                <span class="icon-twitter"></span></a>
+                <span class="icon-googleplus"></span></a>
+                <span class="icon-linkedin"></span></a>
+                <span class="icon-instagram"></span></a>
+                
+        
+            </div>
+
+           
+            
+            <div class="copyright"> 
+                <span class="cright">&copy; Copyright 2020. All Rights Reserved.</span>
+            </div>
+        </section>
+    </footer>
+
+    
+
+    
+</body>
+</html>    
+        
+
+   
+   
